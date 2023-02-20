@@ -12,11 +12,14 @@ int main(void)
 
 	while  (c < 10)
 	{
-		putcher(48 + c);
+		putchar(48 + c);
 		if (c != 9)
 		{
-			putcher('.');
-			putcahr(' ');
+			putchar('.');
+			putchar(' ');
 		}
 		c++;
 	}
+	putchar('\n');
+	return (0);
+}
