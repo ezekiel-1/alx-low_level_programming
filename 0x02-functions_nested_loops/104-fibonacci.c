@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - fibonacci<3
+ * main - fibonacci <3
  *
  * Purpose - no hardcode
  *
@@ -27,6 +27,7 @@ int main(void)
 		aft += bef;
 		bef = aft - bef;
 	}
+
 	bef1 = (bef / 1);
 	bef2 = (bef % 1);
 	aft1 = (aft / 1);
