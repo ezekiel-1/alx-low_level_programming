@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the sode 
- *
- * Return: Always 0.
+ * print_sign - prints the sign of a number
+ * @n: the int to check
+ * Return: 1 and prints + if n i greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
-int main(void)
+int print_sign(int n)
 {
-	int r;
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
 
-	r = _isalpha('H');
-	_putchar(r + '0');
-	r = _isalpha('o');
-	_putchar(r + '0');
-	r = _isalpha(108);
-	_putchar(r + '0');
-	_putchar('\n');
-	return (0);
+	else if (n == 0)
 }
