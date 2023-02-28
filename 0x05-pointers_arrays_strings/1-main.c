@@ -18,7 +18,3 @@ int main(void)
     printf("a=%d, b=%d\n", a, b);
     return (0);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 2696d37426f1b56f077eeee360cac1a87bb8edd0
