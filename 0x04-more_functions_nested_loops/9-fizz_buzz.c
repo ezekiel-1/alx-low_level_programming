@@ -7,6 +7,7 @@
  * and the multiple of five printing buzz
  * Return: Always 0
  */
+
 int main(void)
 {
 	int i;
