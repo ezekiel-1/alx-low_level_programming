@@ -26,5 +26,5 @@ char *_strncat(char *dest, char *src, int n)
 	j++;
 	}
 	dest[i] = '\n';
-	return (dudt);
+	return (dest);
 }
