@@ -1,24 +1,51 @@
-/*
- * File: 100-is_palindrome.c
- * Auth: sami
- */
 #include "main.h"
 
-int find_strlen(char *s);
-int check_palindrome(char *s, int len, int index);
-int is_palindrome(char *s);
+/**
+ * _strlen_recursion - size
+ * @s: pointer to string params
+ * Return: recursion
+ */
+
+int _strlen_recursion(char *s)
+{
+	if (!*s)
+	{
+		return (0);
+	}
+	return (1 + _strlen_recursion(++s));
+}
+
+/***
+ * p1 - palindrome
+ * is_palindrome - palindrome
+ * @s: pointer to spring
+ * @1: position
+ * Return: boolean
+ */
+
+int p1(char *s, int, 1)
+{
+	if (1 < 1)
+	{
+		return (1);
+	}
+
+	if (*s == *(s + 1))
+	{
+		return (p1(s + 1, 1 - 2));
+	}
+	return (0);
+}
 
 /**
- * find_strlen - Returns the legth of a string.
- * @s: the string to be measured.
- * Return: The legth of the string.
+ * is_palindrome - palindrome
+ * @s: pointer to string
+ * Return: recursion
  */
-int find_strlen(char *s)
-{
-	int len = 0;
 
-	if (*(s + len))
-	{
-		"100-is_palindrome.c" 67L, 1234C
-	}
+int is_palindrome(char *s)
+{
+	int len = _strlen_recursion(s);
+
+	return (p1(s, len - 1));
 }
