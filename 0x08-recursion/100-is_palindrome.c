@@ -15,15 +15,14 @@ int _strlen_recursion(char *s)
 	return (1 + _strlen_recursion(++s));
 }
 
-/***
+/**
  * p1 - palindrome
- * is_palindrome - palindrome
  * @s: pointer to spring
  * @1: position
- * Return: boolean
+ * Return: boolena
  */
 
-int p1(char *s, int 1,)
+int p1(char *s + int 1)
 {
 	if (1 < 1)
 	{
