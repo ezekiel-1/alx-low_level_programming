@@ -6,9 +6,9 @@
  * @argv: array of urguments
  * Rturn: Always 0 (Success)
  */
-int main(int argc _attribute_((unsused)), char *argv[])
+int main(int argc __attribute__((unsused)), char *argv[])
 {
-	printf("%\n", *argv);
+	printf("%s\n", *argv);
 
 	return (0);
 }
