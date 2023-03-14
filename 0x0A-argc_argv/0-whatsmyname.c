@@ -4,7 +4,7 @@
  * main - prints the name of the program
  * @argc: number urguments
  * @argv: array of urguments
- * Rturn: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(int argc __attribute__((unsused)), char *argv[])
 {
