@@ -2,11 +2,12 @@
 #include "main.h"
 
 /**
- * *string_concat - concatenates n bytes of a string to ano'
- * @s1: string to append to
- * @s2: string to concatenate from
- * @n: number of bytes from s2 to concatenate to s1
- * Return: pointer to the resulting string
+ * *string_concat -a function tha concatenates two strings.
+ * @s1: first char
+ * @s2: second char
+ * @n: unsigned int
+ *
+ * Return: if the fucntion fails, it should return NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -21,7 +22,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n < len2)
 		s = malloc(sizeof(char) * (len1 + n + 1));
 	else
-		s = malloc(sizeof(char) *(len1 + len2 + 1));
+		s = malloc(sizeof(char) * (len1 + len2 + 1));
 
 			if (!s)
 				return (NULL);
